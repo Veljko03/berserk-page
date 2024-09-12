@@ -29,7 +29,7 @@ header {
   flex-direction: column;
   background-color: rgb(58, 48, 48);
   box-shadow: 4px 4px 4px 4px black;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 .about {
   font-size: 48px;
@@ -48,4 +48,16 @@ p {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-shadow: 2px 2px rgb(176, 4, 4);
+}
+
+i {
+  font-size: 52px;
+}
+
+.icons {
+  display: flex;
+  gap: 16px;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: 32px;
 }
