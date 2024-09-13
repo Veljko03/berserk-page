@@ -13,6 +13,7 @@ header {
   margin: 110px;
   justify-self: center;
   align-self: center;
+  flex-wrap: wrap;
 }
 .photo-section {
   box-shadow: 10px 10px 15px 15px black;
@@ -90,6 +91,7 @@ main {
 }
 .card {
   border-radius: 8px;
+
   border-color: white;
   box-shadow: 2px 2px 2px 2px black;
   background-color: white;
@@ -143,6 +145,19 @@ footer {
   flex-direction: column;
   gap: 20px;
   justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  header {
+    display: block;
+  }
+  .photo-section {
+    float: left;
+  }
+  .aboutPage {
+    display: block;
+    clear: left;
+  }
 }
 
 @media (max-width: 800px) {
