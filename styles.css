@@ -15,13 +15,36 @@ header {
   align-self: center;
 }
 
-.photo-section {
+.photo-section img {
   box-shadow: 10px 10px 15px 15px black;
   max-width: 450px;
   max-height: 520px;
+  margin-right: 32px;
+  margin-bottom: 32px;
+}
+.photo-section {
+  background-color: rgb(58, 48, 48);
+  color: white;
+  gap: 30px;
+
+  box-shadow: 4px 4px 4px 4px black;
+  border-radius: 8px;
+  max-width: 1200px;
+  display: flex;
+  margin: 40px;
 }
 
 .aboutPage {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .aboutPage {
   color: white;
   display: flex;
   padding-left: 70px;
@@ -35,7 +58,7 @@ header {
   background-color: rgb(58, 48, 48);
   box-shadow: 4px 4px 4px 4px black;
   border-radius: 8px;
-}
+} */
 .about {
   font-size: 48px;
   margin-bottom: 60px;
@@ -148,11 +171,21 @@ footer {
 }
 
 @media (max-width: 1200px) {
+  .aboutPage {
+    display: block;
+  }
   .photo-section {
+    display: block;
+  }
+  .photo-section img {
+    float: left;
   }
 }
 
 @media (max-width: 800px) {
+  .photo-section {
+    margin-top: 0;
+  }
   .wrapper,
   .contact-wrapper {
     flex-direction: column;
