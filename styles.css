@@ -37,9 +37,11 @@ header {
 }
 .about {
   font-size: 48px;
+  margin-bottom: 60px;
 }
 p {
   font-size: 24px;
+  margin-bottom: 12px;
 }
 
 .picName {
@@ -125,6 +127,7 @@ footer {
 .contact-wrapper {
   display: flex;
   gap: 80px;
+  margin: 30px;
 }
 .contact-wrapper img {
   box-shadow: 10px 10px 15px 15px black;
@@ -140,4 +143,11 @@ footer {
   flex-direction: column;
   gap: 20px;
   justify-content: center;
+}
+
+@media (max-width: 800px) {
+  .wrapper,
+  .contact-wrapper {
+    flex-direction: column;
+  }
 }
