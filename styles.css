@@ -13,8 +13,8 @@ header {
   margin: 110px;
   justify-self: center;
   align-self: center;
-  flex-wrap: wrap;
 }
+
 .photo-section {
   box-shadow: 10px 10px 15px 15px black;
   max-width: 450px;
@@ -148,15 +148,7 @@ footer {
 }
 
 @media (max-width: 1200px) {
-  header {
-    display: block;
-  }
   .photo-section {
-    float: left;
-  }
-  .aboutPage {
-    display: block;
-    clear: left;
   }
 }
 
